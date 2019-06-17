@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.nkhatho.leole.doggyparlour.DogStatusFragment">
+
+
+    <TextView
+        android:id="@+id/tvDogStatusHeader"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/all_margins"
+        android:layout_weight="2"
+        android:gravity="center_horizontal"
+        android:text="@string/dog_status"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/header_text_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivDogStatuss"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        app:srcCompat="@mipmap/done" />
+</LinearLayout>

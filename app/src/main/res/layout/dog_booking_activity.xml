@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.nkhatho.leole.doggyparlour.DogBookingActivity">
+    <!--android:background="@color/colorPrimaryDark"-->
+    <EditText
+        android:id="@+id/etDogName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/editext_bottom_top_margins"
+        android:layout_marginLeft="@dimen/edittext_left_right_margins"
+        android:layout_marginRight="@dimen/edittext_left_right_margins"
+        android:layout_marginTop="@dimen/editext_bottom_top_margins"
+        android:background="@drawable/designed_edittext"
+
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_dog_name"
+        android:inputType="textPersonName"
+        android:padding="@dimen/edittext_padding"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/etDogBreed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/editext_bottom_top_margins"
+        android:layout_marginLeft="@dimen/edittext_left_right_margins"
+        android:layout_marginRight="@dimen/edittext_left_right_margins"
+        android:layout_marginTop="@dimen/editext_bottom_top_margins"
+        android:background="@drawable/designed_edittext"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_dog_breed"
+        android:inputType="textPersonName"
+        android:padding="@dimen/edittext_padding"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/etDogAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/editext_bottom_top_margins"
+        android:layout_marginLeft="@dimen/edittext_left_right_margins"
+        android:layout_marginRight="@dimen/edittext_left_right_margins"
+        android:layout_marginTop="@dimen/editext_bottom_top_margins"
+        android:background="@drawable/designed_edittext"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="@string/hint_dog_age"
+        android:inputType="number"
+        android:padding="@dimen/edittext_padding"
+        android:password="false"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btnSubmitBooking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/btn_all_margins"
+        android:background="@color/colorAccent"
+        android:text="@string/btn_submit_booking"
+        android:textColor="@color/colorPrimaryDark" />
+</LinearLayout>

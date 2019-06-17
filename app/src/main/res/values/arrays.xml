@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="breed">
+        <item>Labrador</item>
+        <item>Huskie</item>
+        <item>Spaniel</item>
+        <item>Golden Retriever</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>Johnny</item>
+        <item>Buster</item>
+        <item>Chuck</item>
+        <item>Lady</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Booked In</item>
+        <item>Busy</item>
+        <item>Done</item>
+        <item>Busy</item>
+    </string-array>
+
+    <integer-array name="age">
+        <item>5</item>
+        <item>7</item>
+        <item>2</item>
+        <item>4</item>
+    </integer-array>
+
+    <string-array name="breed_info">
+
+        <item>A favourite disability assistance breed in many countries, Labradors are frequently trained to aid the blind, those who have autism, to act as a therapy dog and perform screening and detection work for law enforcement and other official agencies</item>
+        <item>Husky is a general name for a sled-type of dog used in northern regions, differentiated from other sled-dog types by their fast pulling style. They are an ever-changing cross-breed of the fastest dogs</item>
+        <item>A spaniel is a type of gun dog. Spaniels were especially bred to flush game out of denser brush. By the late 17th century spaniels had been specialized into water and land breeds.</item>
+        <item>The Golden Retriever is a large-sized breed of dog bred as gun dogs to retrieve shot waterfowl such as ducks and upland game birds during hunting and shooting parties, and were named retriever because of their ability to retrieve shot game undamaged</item>
+    </string-array>
+</resources>

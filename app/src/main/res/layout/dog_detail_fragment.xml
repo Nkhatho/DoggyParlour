@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.nkhatho.leole.doggyparlour.DogDetailFragment">
+
+
+    <TextView
+        android:id="@+id/tvDogDetailHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/dog_detail_header"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/header_text_size"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDogDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/all_margins"
+        android:text="TextView"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>

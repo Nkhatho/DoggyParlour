@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Doggy Parlour</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <!--main activity-->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="main_activity_welcome">Welcome to the Doggy Parlour</string>
+    <string name="btn_see_all_dogs">See All Dogs</string>
+    <string name="btn_book_a_dog">Book A Visit</string>
+
+    <!--book a visit activity-->
+    <string name="hint_dog_name">Please enter name of dog</string>
+    <string name="hint_dog_breed">Please enter breed of dog</string>
+    <string name="hint_dog_age">Please enter age of dog</string>
+    <string name="btn_submit_booking">Submit Booking</string>
+
+    <!--dog detail fragment-->
+    <string name="dog_detail_header">Breed Information</string>
+    <string name="dog_status">Status of Dog\'s visit</string>
+
+
+</resources>

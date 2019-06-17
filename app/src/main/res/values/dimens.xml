@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="header_text_size">18sp</dimen>
+    <dimen name="all_margins">15dp</dimen>
+    <dimen name="btn_all_margins">20dp</dimen>
+    <dimen name="edittext_left_right_margins">15dp</dimen>
+    <dimen name="editext_bottom_top_margins">5dp</dimen>
+    <dimen name="edittext_padding">20dp</dimen>
+    <dimen name="edittext_elevation">40dp</dimen>
+</resources>
